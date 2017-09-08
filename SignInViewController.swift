@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
+    
+    var window = UIWindow()
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -16,5 +19,15 @@ class SignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //check if there is any user logged in
+        //If yes, we go ChatViewController which is inside ChatViewStoryboard
+        if Auth.auth().currentUser != nil {
+            let ChatViewStoryboard = UIStoryboard(name: "ChatViewStoryboard", bundle: Bundle.main)
+            let chatVC = ChatViewStoryboard.instantiateViewController(withIdentifier: "TheChatViewController")
+            
+            window.rootViewController = chatVC
+            window.makeKeyAndVisible()
+        }
     }
 }
