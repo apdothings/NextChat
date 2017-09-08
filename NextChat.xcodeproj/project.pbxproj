@@ -14,7 +14,10 @@
 		FD2908241F6279340085B04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2908221F6279340085B04F /* Main.storyboard */; };
 		FD2908261F6279340085B04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2908251F6279340085B04F /* Assets.xcassets */; };
 		FD2908291F6279340085B04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2908271F6279340085B04F /* LaunchScreen.storyboard */; };
-		FD29084F1F627B7E0085B04F /* AuthStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD29084E1F627B7E0085B04F /* AuthStoryboard.storyboard */; };
+		FDFD6A751F628D7B00A6D4F2 /* TheChatViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFD6A741F628D7B00A6D4F2 /* TheChatViewStoryboard.storyboard */; };
+		FDFD6A771F628F6900A6D4F2 /* TheChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFD6A761F628F6900A6D4F2 /* TheChatViewController.swift */; };
+		FDFD6A791F6293B000A6D4F2 /* AuthStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFD6A781F6293B000A6D4F2 /* AuthStoryboard.storyboard */; };
+		FDFD6A7B1F629DE200A6D4F2 /* users.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFD6A7A1F629DE200A6D4F2 /* users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +32,10 @@
 		FD2908251F6279340085B04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2908281F6279340085B04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD29082A1F6279340085B04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD29084E1F627B7E0085B04F /* AuthStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AuthStoryboard.storyboard; sourceTree = "<group>"; };
+		FDFD6A741F628D7B00A6D4F2 /* TheChatViewStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TheChatViewStoryboard.storyboard; path = ../TheChatViewStoryboard.storyboard; sourceTree = "<group>"; };
+		FDFD6A761F628F6900A6D4F2 /* TheChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TheChatViewController.swift; path = ../TheChatViewController.swift; sourceTree = "<group>"; };
+		FDFD6A781F6293B000A6D4F2 /* AuthStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AuthStoryboard.storyboard; path = ../AuthStoryboard.storyboard; sourceTree = "<group>"; };
+		FDFD6A7A1F629DE200A6D4F2 /* users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,6 @@
 		FD2908121F6279340085B04F = {
 			isa = PBXGroup;
 			children = (
-				FD29084E1F627B7E0085B04F /* AuthStoryboard.storyboard */,
 				FD29081D1F6279340085B04F /* NextChat */,
 				FD29081C1F6279340085B04F /* Products */,
 				DAADB0C5D5CD0F7DA24CB961 /* Pods */,
@@ -83,9 +88,13 @@
 		FD29081D1F6279340085B04F /* NextChat */ = {
 			isa = PBXGroup;
 			children = (
+				FDFD6A761F628F6900A6D4F2 /* TheChatViewController.swift */,
+				FDFD6A7A1F629DE200A6D4F2 /* users.swift */,
+				FDFD6A781F6293B000A6D4F2 /* AuthStoryboard.storyboard */,
 				FD29081E1F6279340085B04F /* AppDelegate.swift */,
 				FD2908201F6279340085B04F /* ViewController.swift */,
 				FD2908221F6279340085B04F /* Main.storyboard */,
+				FDFD6A741F628D7B00A6D4F2 /* TheChatViewStoryboard.storyboard */,
 				FD2908251F6279340085B04F /* Assets.xcassets */,
 				FD2908271F6279340085B04F /* LaunchScreen.storyboard */,
 				FD29082A1F6279340085B04F /* Info.plist */,
@@ -161,7 +170,8 @@
 				FD2908291F6279340085B04F /* LaunchScreen.storyboard in Resources */,
 				FD2908261F6279340085B04F /* Assets.xcassets in Resources */,
 				FD2908241F6279340085B04F /* Main.storyboard in Resources */,
-				FD29084F1F627B7E0085B04F /* AuthStoryboard.storyboard in Resources */,
+				FDFD6A751F628D7B00A6D4F2 /* TheChatViewStoryboard.storyboard in Resources */,
+				FDFD6A791F6293B000A6D4F2 /* AuthStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFD6A7B1F629DE200A6D4F2 /* users.swift in Sources */,
 				FD2908211F6279340085B04F /* ViewController.swift in Sources */,
+				FDFD6A771F628F6900A6D4F2 /* TheChatViewController.swift in Sources */,
 				FD29081F1F6279340085B04F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
