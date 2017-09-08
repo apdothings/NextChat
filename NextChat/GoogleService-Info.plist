@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>248298745334-et73k6g6rsdi9n1kf1u4bqmo32obge4g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.248298745334-et73k6g6rsdi9n1kf1u4bqmo32obge4g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAWQQ7TN5AraR-1DcnheJAmdLL4jxEmZHM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>248298745334</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.NextChat</string>
+	<key>PROJECT_ID</key>
+	<string>nextchatapp-2d64d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nextchatapp-2d64d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:248298745334:ios:284e9b4ee1f4170b</string>
+	<key>DATABASE_URL</key>
+	<string>https://nextchatapp-2d64d.firebaseio.com</string>
+</dict>
+</plist>

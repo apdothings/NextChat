@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7BB3D454EDA269B45BAD539E /* Pods_NextChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05013EB69B3835DC7FA80842 /* Pods_NextChat.framework */; };
+		876BA3B71F62830400071CF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 876BA3B61F62830400071CF2 /* GoogleService-Info.plist */; };
 		FD29081F1F6279340085B04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD29081E1F6279340085B04F /* AppDelegate.swift */; };
 		FD2908211F6279340085B04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2908201F6279340085B04F /* ViewController.swift */; };
 		FD2908241F6279340085B04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2908221F6279340085B04F /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		05013EB69B3835DC7FA80842 /* Pods_NextChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE0E15CB043094B8283A5E5 /* Pods-NextChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.debug.xcconfig"; sourceTree = "<group>"; };
 		34ADACA76A66DCF9D96DE48B /* Pods-NextChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.release.xcconfig"; sourceTree = "<group>"; };
+		876BA3B61F62830400071CF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD29081B1F6279340085B04F /* NextChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD29081E1F6279340085B04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD2908201F6279340085B04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				FD2908251F6279340085B04F /* Assets.xcassets */,
 				FD2908271F6279340085B04F /* LaunchScreen.storyboard */,
 				FD29082A1F6279340085B04F /* Info.plist */,
+				876BA3B61F62830400071CF2 /* GoogleService-Info.plist */,
 			);
 			path = NextChat;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876BA3B71F62830400071CF2 /* GoogleService-Info.plist in Resources */,
 				FD2908291F6279340085B04F /* LaunchScreen.storyboard in Resources */,
 				FD2908261F6279340085B04F /* Assets.xcassets in Resources */,
 				FD2908241F6279340085B04F /* Main.storyboard in Resources */,
@@ -203,9 +207,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NextChat/Pods-NextChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

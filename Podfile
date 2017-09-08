@@ -6,9 +6,9 @@ target 'NextChat' do
   use_frameworks!
 
   # Pods for NextChat
-	#pod 'Firebase/Core'
-	#pod 'Firebase/Auth'
-	#pod 'Firebase/Storage'
-	#pod ‘Firebase/Database’
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Storage'
+	pod 'Firebase/Database'
 
 end
