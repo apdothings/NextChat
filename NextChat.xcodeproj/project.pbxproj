@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7BB3D454EDA269B45BAD539E /* Pods_NextChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05013EB69B3835DC7FA80842 /* Pods_NextChat.framework */; };
+		8759CC301F63C0AC00A334C7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759CC2F1F63C0AC00A334C7 /* SignUpViewController.swift */; };
 		876BA3B71F62830400071CF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 876BA3B61F62830400071CF2 /* GoogleService-Info.plist */; };
 		876BA3B91F628E3700071CF2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876BA3B81F628E3700071CF2 /* SignInViewController.swift */; };
 		FD29081F1F6279340085B04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD29081E1F6279340085B04F /* AppDelegate.swift */; };
-		FD2908211F6279340085B04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2908201F6279340085B04F /* ViewController.swift */; };
 		FD2908241F6279340085B04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2908221F6279340085B04F /* Main.storyboard */; };
 		FD2908261F6279340085B04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2908251F6279340085B04F /* Assets.xcassets */; };
 		FD2908291F6279340085B04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2908271F6279340085B04F /* LaunchScreen.storyboard */; };
@@ -22,11 +22,11 @@
 		05013EB69B3835DC7FA80842 /* Pods_NextChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE0E15CB043094B8283A5E5 /* Pods-NextChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.debug.xcconfig"; sourceTree = "<group>"; };
 		34ADACA76A66DCF9D96DE48B /* Pods-NextChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextChat/Pods-NextChat.release.xcconfig"; sourceTree = "<group>"; };
+		8759CC2F1F63C0AC00A334C7 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		876BA3B61F62830400071CF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		876BA3B81F628E3700071CF2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
 		FD29081B1F6279340085B04F /* NextChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD29081E1F6279340085B04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD2908201F6279340085B04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD2908231F6279340085B04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD2908251F6279340085B04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2908281F6279340085B04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 			children = (
 				FD29084E1F627B7E0085B04F /* AuthStoryboard.storyboard */,
 				876BA3B81F628E3700071CF2 /* SignInViewController.swift */,
+				8759CC2F1F63C0AC00A334C7 /* SignUpViewController.swift */,
 				FD29081E1F6279340085B04F /* AppDelegate.swift */,
-				FD2908201F6279340085B04F /* ViewController.swift */,
 				FD2908221F6279340085B04F /* Main.storyboard */,
 				FD2908251F6279340085B04F /* Assets.xcassets */,
 				FD2908271F6279340085B04F /* LaunchScreen.storyboard */,
@@ -235,7 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2908211F6279340085B04F /* ViewController.swift in Sources */,
+				8759CC301F63C0AC00A334C7 /* SignUpViewController.swift in Sources */,
 				FD29081F1F6279340085B04F /* AppDelegate.swift in Sources */,
 				876BA3B91F628E3700071CF2 /* SignInViewController.swift in Sources */,
 			);
