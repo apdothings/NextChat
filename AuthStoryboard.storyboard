@@ -51,9 +51,18 @@
                                 </constraints>
                                 <state key="normal" title="Sign In!"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="763-dN-Hft">
+                                <rect key="frame" x="120" y="363" width="135" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dYK-EV-i8T"/>
+                                    <constraint firstAttribute="width" constant="135" id="t97-ZH-o2Y"/>
+                                </constraints>
+                                <state key="normal" title="Sign up!"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="763-dN-Hft" firstAttribute="centerX" secondItem="hDo-s2-CYM" secondAttribute="centerX" id="9Bo-vL-5LB"/>
                             <constraint firstItem="6Lm-Kw-ZP9" firstAttribute="top" secondItem="WFs-8j-Y17" secondAttribute="bottom" constant="26" id="AiL-i3-GHR"/>
                             <constraint firstItem="zYV-nZ-F27" firstAttribute="leading" secondItem="y11-Dx-pR0" secondAttribute="leadingMargin" constant="60" id="Gy7-hr-Jrj"/>
                             <constraint firstItem="6Lm-Kw-ZP9" firstAttribute="leading" secondItem="y11-Dx-pR0" secondAttribute="leadingMargin" constant="10" id="KGt-RL-luO"/>
@@ -62,6 +71,7 @@
                             <constraint firstItem="J5O-ZM-Ui9" firstAttribute="top" secondItem="zYV-nZ-F27" secondAttribute="bottom" constant="8" id="Ydk-Q8-MZQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zYV-nZ-F27" secondAttribute="trailing" constant="60" id="eiE-70-Fly"/>
                             <constraint firstItem="zYV-nZ-F27" firstAttribute="top" secondItem="6Lm-Kw-ZP9" secondAttribute="bottom" constant="8" id="kBj-39-QFt"/>
+                            <constraint firstItem="763-dN-Hft" firstAttribute="top" secondItem="hDo-s2-CYM" secondAttribute="bottom" constant="8" id="kzD-Ib-gHI"/>
                             <constraint firstItem="hDo-s2-CYM" firstAttribute="top" secondItem="J5O-ZM-Ui9" secondAttribute="bottom" constant="126" id="qxx-4Y-HMO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="J5O-ZM-Ui9" secondAttribute="trailing" constant="60" id="sqj-IU-OK5"/>
                             <constraint firstItem="hDo-s2-CYM" firstAttribute="centerX" secondItem="J5O-ZM-Ui9" secondAttribute="centerX" id="sxo-A3-Zsr"/>
@@ -75,7 +85,56 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lQ-mN-aci" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="269.60000000000002" y="-142.57871064467767"/>
+            <point key="canvasLocation" x="102" y="-195"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OYT-UZ-eNu">
+            <objects>
+                <viewController id="cK0-HO-p0d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fd8-1m-GrE"/>
+                        <viewControllerLayoutGuide type="bottom" id="859-Ej-yG1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J7k-gu-cBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qWY-Xr-lUs">
+                                <rect key="frame" x="51" y="107" width="273" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E7X-bB-Ngm">
+                                <rect key="frame" x="51" y="145" width="273" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J52-td-uut">
+                                <rect key="frame" x="51" y="183" width="273" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytn-14-t1h">
+                                <rect key="frame" x="329" y="28" width="30" height="30"/>
+                                <state key="normal" title="Edit"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ytn-14-t1h" firstAttribute="top" secondItem="fd8-1m-GrE" secondAttribute="bottom" constant="8" id="cBF-3v-60J"/>
+                            <constraint firstItem="Ytn-14-t1h" firstAttribute="trailing" secondItem="J7k-gu-cBJ" secondAttribute="trailingMargin" id="zhW-bN-8ac"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJk-aO-oXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="-195.6521739130435"/>
         </scene>
     </scenes>
 </document>

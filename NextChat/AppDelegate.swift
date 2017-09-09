@@ -16,9 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         
         FirebaseApp.configure()
+        
+        // Override point for customization after application launch.
+        
+        //get the vc
+        let authStoryboard = UIStoryboard(name: "AuthStoryboard", bundle: Bundle.main)
+        let signInVC = authStoryboard.instantiateViewController(withIdentifier: "SignInViewController")
+        
+        window?.rootViewController = signInVC
+        window?.makeKeyAndVisible()
+        
+        
         
         return true
     }
