@@ -29,13 +29,19 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Hp-qC-p26">
-                                <rect key="frame" x="157" y="546" width="60" height="30"/>
+                                <rect key="frame" x="160" y="546" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign Out"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="LogOutButton:" destination="ae9-d2-R9N" eventType="touchUpInside" id="5kS-8B-Bgi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="userNameTextField" destination="9OY-G0-Rjr" id="j3L-ZV-GCK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uop-ai-hh5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

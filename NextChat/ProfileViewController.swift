@@ -10,6 +10,17 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+   
+    @IBOutlet weak var userNameTextField: UITextField!
+    
+    
+    @IBAction func LogOutButton(_ sender: Any) {
+        
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
