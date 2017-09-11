@@ -18,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        let ProfileStoryboard = UIStoryboard(name: "ProfileStoryboard", bundle: Bundle.main)
+        let profileVC = ProfileStoryboard.instantiateViewController(withIdentifier: "ProfileViewController")
+        
+        window?.rootViewController = profileVC
+        
         FirebaseApp.configure()
         
         return true
