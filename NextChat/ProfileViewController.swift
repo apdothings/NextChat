@@ -57,6 +57,7 @@ class ProfileViewController: UIViewController {
             
             //dig paths to reach a specific student
             ref.child("users").child("\(id)").updateChildValues(post)
+            //ref.child(<#T##pathString: String##String#>).se
             editButton.setTitle("Edit", for: .normal)
             isEdit = true
             
