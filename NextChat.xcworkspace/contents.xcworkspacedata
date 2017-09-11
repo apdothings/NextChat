@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ProfileStoryboard.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:NextChat.xcodeproj">
    </FileRef>
    <FileRef
