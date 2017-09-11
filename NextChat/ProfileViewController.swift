@@ -32,6 +32,7 @@ class ProfileViewController: UIViewController {
     
     @IBAction func LogOutButton(_ sender: Any) {
         
+//        signoutbutton.addTarget(self, action: #selector(signUpUser), for: .touchUpInside)
         
     }
     
