@@ -36,10 +36,19 @@
                                     <action selector="LogOutButton:" destination="ae9-d2-R9N" eventType="touchUpInside" id="5kS-8B-Bgi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtF-gw-hIn">
+                                <rect key="frame" x="160" y="449" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Edit"/>
+                                <connections>
+                                    <action selector="editButton:" destination="ae9-d2-R9N" eventType="touchUpInside" id="acR-qP-jsG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="editButton" destination="dtF-gw-hIn" id="Sgd-k2-KLM"/>
                         <outlet property="userNameTextField" destination="9OY-G0-Rjr" id="j3L-ZV-GCK"/>
                     </connections>
                 </viewController>
