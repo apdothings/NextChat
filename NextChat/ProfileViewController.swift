@@ -71,7 +71,11 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        guard let user = selectedUser?.email
+        else {return}
+        
+        userNameTextField.text = user
+        editButton.titleLabel?.text = "Edit"
     }
     
     override func didReceiveMemoryWarning() {
